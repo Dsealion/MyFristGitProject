@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="MyFristGitProject:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>MyFristGitProject</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="com.darin.war">
+      <element id="artifact" artifact-name="MyFristGitProject:war exploded" />
+    </root>
+  </artifact>
+</component>
